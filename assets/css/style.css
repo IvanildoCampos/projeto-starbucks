@@ -317,10 +317,6 @@ footer {
     }
 }
 @media (min-width: 320px) and (max-width: 600px) {
-    * {
-        margin: 0;
-    }
-
     .header--menu {
         margin-left: 10px; /* Ajustado o valor da margem do menu */
     }
