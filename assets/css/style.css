@@ -270,7 +270,6 @@ footer {
         grid-template-columns: 3fr 2fr;
     }
 }
-
 @media (min-width: 425px) and (max-width: 768px) {
     .conteiner {
         padding-left: 20px;
@@ -315,5 +314,66 @@ footer {
     footer {
         font-size: 12px;
         padding: 40px 20px;
+    }
+}
+@media (min-width: 320px) and (max-width: 600px) {
+    * {
+        margin: 0;
+    }
+
+    .header--menu {
+        margin-left: 10px; /* Ajustado o valor da margem do menu */
+    }
+
+    .header--search input {
+        max-width: 100px;
+    }  
+
+    h1 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    h2 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    span {
+        margin-left: 10px; /* Ajustado o valor da margem para 10px */
+        font-size: 15px;
+        line-height: 15px;
+    }
+
+    .banner--images img {
+        width: 60px;
+        height: 60px;
+        border: 3px solid #117050;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+
+    .area1,
+    .area2,
+    .area3,
+    .area4 {
+        grid-template-columns: 1fr;
+    }
+
+    .area1--content,
+    .area2--content,
+    .area3--content,
+    .area4--content {
+        padding: 10px; /* Ajustado o valor do padding para 10px */
+    }
+
+    .area5 {
+        height: 190px;
+    }
+
+    footer {
+        font-size: 12px;
+        padding: 10px 20px; /* Ajustado o valor do padding para 10px */
+        text-align: left;
     }
 }
