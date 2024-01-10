@@ -318,12 +318,16 @@ footer {
 }
 @media (min-width: 320px) and (max-width: 600px) {
     .header--menu {
-        margin-left: 10px; /* Ajustado o valor da margem do menu */
+        margin-left: 10px;
     }
 
     .header--search input {
         max-width: 100px;
-    }  
+    }
+
+    .header--menu img {
+        padding-left: 5px;
+    }
 
     h1 {
         font-size: 40px;
@@ -336,7 +340,7 @@ footer {
     }
 
     span {
-        margin-left: 10px; /* Ajustado o valor da margem para 10px */
+        margin-left: 10px;
         font-size: 15px;
         line-height: 15px;
     }
@@ -360,7 +364,7 @@ footer {
     .area2--content,
     .area3--content,
     .area4--content {
-        padding: 10px; /* Ajustado o valor do padding para 10px */
+        padding: 10px;
     }
 
     .area5 {
@@ -369,7 +373,7 @@ footer {
 
     footer {
         font-size: 12px;
-        padding: 10px 20px; /* Ajustado o valor do padding para 10px */
+        padding: 10px 20px;
         text-align: left;
     }
 }
